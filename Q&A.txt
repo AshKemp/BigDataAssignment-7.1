@@ -1,0 +1,31 @@
+Q1. Why Map-Reduce program is needed in Pig Programming ?
+A: Map-Reduce program is needed in Pig programming because Map-Reduce can be used for faster data processing during data movement jobs. Also PIG is a bit slower as compared to Map-Reduce as PIG commands are translated into Map-Reduce prior to execution.
+
+Q2. What are the advantages of Pig over Map-Reduce ?
+A: The advantage of Pig over Map-Reduce is that Pig is more concise i.e 200 lines of Java Code written for Map-Reduce can be reduced to 10 lines of PIG code. Other advantages of PIG are ease of programming, extensiblity and optimization opportunities.
+
+Q3. What is pig engine and what is its importance?
+A: Pig Engine is an important component of Apache Pig that accepts the Pig Latin Scripts as input and converts those scripts into MapReduce jobs.
+Importance: It acts as an interpreter between Pig Latin script and MapReduce jobs. It creates environment to execute pig scripts into series of mapreduce jobs in parallel manner.
+
+Q4. What are the modes of Pig execution?
+A: Pig has 2 execution modes:
+Local Mode - To run Pig in local mode, you need access to a single machine, all files are installe and run using your local host and file system.
+Mapreduce Mode - To run Pig in mapreduce mode, you need access to a Hadoop cluster and HDFS installation.
+
+Q5. What is grunt shell in Pig?
+A: Grunt shell in Pig is an interactive interface like shell prompt where after invoking it, we can run our Pig scripts in the shell. In addition to that, there are certain useful shell and utility commands provided by the Grunt shell. Examples sh,fs.
+
+Q6. What are the features of Pig Latin language?
+A: Pig Latin is a high-level language which provides various operators using which programmers can develop their own functions for reading,writing and processing data.
+With Pig Latin, programmers can perform MapReduce tasks easily without having to type complex codes in Java.
+It is SQL-like language and it is easy to learn Apache Pig when you are familiar with SQL.
+Performing joins are simple using Pig Latin.
+Rich set of operators, Ease of programming,Optimization opportunities,Extensibility,UDF's,Handles all kinds of data.
+
+Q7. Is Pig latin commands case sensitive?
+A: The names of relations are case sensitive, the names of fields are case sensitive, the function names are case sensitive, the keywords such as LOAD,USING,AS,GROUP BY,FOREACH,GENERATE and DUMP are case insensitive.
+
+Q8. What is a data flow language?
+A: Dataflow language is a programming paradigm that models a program as a directed graph of the data flowing between operations, thus implementing dataflow principles and architecture.
+Pig is a dataflow language.
